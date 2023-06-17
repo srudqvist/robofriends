@@ -1,9 +1,9 @@
 import React from "react";
 import Card from "./Card";
 const CardList = ({ robots }) => {
-	if (true) {
-		throw new Error("Noo");
-	}
+	// if (true) {
+	// 	throw new Error("Noo");
+	// }
 	return (
 		<>
 			{robots.map((user, i) => {
